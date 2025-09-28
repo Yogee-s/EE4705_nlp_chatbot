@@ -1,11 +1,6 @@
-"""
-Train a Seq2Seq chatbot model with periodic and selective checkpoint saving.
-Command line arguments allow customizing training hyperparameters and save schedule.
-"""
-
 import argparse
 import pandas as pd
-import numpy as np
+import numpy as npsss
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
